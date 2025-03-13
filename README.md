@@ -4,9 +4,9 @@ https://docs.google.com/spreadsheets/d/1Tv7dqx86PW1PiF2FbFpxENB-tRmF4KjKqAa-QlSs
 # Crypto Futures Table Long📈
 Margem Inicial = Valor da Posição / Lev X,
 
-% = PNL / Margem Inicial,
+% = (Preço Out - Preço In)/Preço In * Lev,
 
-PNL = (Preço Out - Preço In) * Quantidade * Lev,
+PNL = (Preço Out - Preço In) * Lev,
 
 SL = 3,5% Standard,
 
@@ -16,9 +16,9 @@ Duração da Trade = Hora de Entrada - Hora de Saída.
 # Crypto Futures Table Short📉
 Margem Inicial = Valor da Posição / Lev X,
 
-% = PNL / Margem Inicial,
+% = (Preço In - Preço Out)/Preço In * Lev,
 
-PNL = (Preço In - Preço Out) * Quantidade * Lev,
+PNL = (Preço In - Preço Out) * Lev,
 
 SL = 3,5% Standard,
 
